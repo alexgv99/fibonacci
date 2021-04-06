@@ -14,5 +14,6 @@ yarn build
 
 ```bash
 rm -dfr node_modules
+yarn install --prod
 yarn serve
 ```
