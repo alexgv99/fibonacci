@@ -1,6 +1,10 @@
+import React, { useState } from "react";
+
+import './index.scss';
+
 function Fibonacci({depth: depthProps}) {
 
-	const [depth, setDepth] = React.useState(parseInt(depthProps, 10));
+	const [depth, setDepth] = useState(parseInt(depthProps, 10));
 	
 	const calculate = (depth) => {
 		let p1 = 0;
@@ -48,3 +52,5 @@ function Fibonacci({depth: depthProps}) {
 		</div>
 	);
 }
+
+export default Fibonacci;
