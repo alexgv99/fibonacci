@@ -1,12 +1,18 @@
 
 # Instructions
 
+## to dev environment
+
+```bash
+yarn
+yarn start
+```
+
 ## to generate the build use all dev-dependencies
 
 ```bash
-rm -dfr node_modules
-rm -dfr build
-yarn
+rm -dfr node_modules build
+yarn install
 yarn build
 ```
 
