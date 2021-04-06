@@ -1,0 +1,1 @@
+ReactDOM.render(<Fibonacci depth='10' />, document.querySelector('#app'));

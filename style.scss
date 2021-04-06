@@ -1,0 +1,59 @@
+.container {
+	h1 {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		padding: 20px
+	}
+	.toolbar {
+		display: flex;
+		justify-content: space-around;
+		gap: 10px;
+
+		button {
+			padding: 5px 30px;
+			font-size: 20pt;
+			color: white;
+			font-weight: bold;
+		}
+
+		.obs {
+			font-size: 1rem;
+			height: 20px;
+			align-self: center;
+		}
+
+		.minus {
+			background-color: darken(red, 30%);
+			margin-right: 10px;
+		}
+
+		.plus {
+			background-color: lighten(green, 20%);
+		}
+	}
+}
+
+.row {
+	display: grid;
+	grid-template-columns:	2fr 1fr 5fr 1fr 5fr 1fr 8fr;
+	gap: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 32pt;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	align-items: center;
+	
+	.filler {
+		text-align: right;
+	}
+
+	.p {
+		border: 1px solid black;
+		border-radius: 50%;
+		color: white;
+		padding: 1rem 2rem;
+		// text-align: right;
+	}
+}
