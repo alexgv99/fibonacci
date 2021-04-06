@@ -5,9 +5,7 @@
 	"license": "MIT",
 	"scripts": {
 		"start": "yarn && node scripts/start.js",
-		"prebuild": "rm -dfr node_modules && rm -dfr build && yarn install",
 		"build": "node scripts/build.js",
-		"preserve": "yarn build && rm -dfr node_modules && yarn install --prod",
 		"serve": "serve -s build"
 	},
 	"dependencies": {
