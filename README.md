@@ -16,10 +16,14 @@ yarn install
 yarn build
 ```
 
-## to serve use just the prod dependencies
+## to serve use docker container
 
 ```bash
-rm -dfr node_modules
-yarn install --prod
-yarn serve
+docker build -t fibonacci-img .
+docker run -d -p 8080:80 --rm --name fibonacci fibonacci-img
+docker logs -f fibonacci
 ```
+
+## point your broser to http://localhost:8080
+
+by alexgv99
