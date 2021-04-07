@@ -24,6 +24,6 @@ docker run -d -p 8080:80 --rm --name fibonacci fibonacci-img
 docker logs -f fibonacci
 ```
 
-## point your broser to http://localhost:8080
+## point your broser to <http://localhost:8080>
 
 by alexgv99
