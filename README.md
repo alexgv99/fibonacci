@@ -24,6 +24,14 @@ docker run -d -p 8080:80 --rm --name fibonacci fibonacci-img
 docker logs -f fibonacci
 ```
 
-## point your broser to <http://localhost:8080>
+### to local teste, point your broser to <http://localhost:8080>
+
+### source code available
+
+<https://github.com/alexgv99/fibonacci>
+
+### production endpoint
+
+<https://fibonacci-alexgv99.vercel.app/>
 
 by alexgv99
